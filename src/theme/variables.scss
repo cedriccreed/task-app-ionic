@@ -1,0 +1,15 @@
+/** Light Theme **/
+:root {
+  --ion-background-color: #ffffff;
+  --ion-text-color: #000000;
+  --ion-color-primary: #3880ff;
+  --ion-toolbar-background: var(--ion-color-primary);  // Mantén el color del toolbar en modo claro
+}
+
+/** Dark Theme **/
+body.dark {
+  --ion-background-color: #000000;
+  --ion-text-color: #ffffff;
+  --ion-color-primary: #3880ff; // Usa el mismo color para el toolbar
+  --ion-toolbar-background: var(--ion-color-primary);  // Mantén el color del toolbar en modo oscuro
+}
